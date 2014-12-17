@@ -3,7 +3,7 @@
   "preferGlobal": true,
   "version": "0.1.0",
   "author": "Jan Snasel <snaselj@gmail.com>",
-  "description": "Open Smart Environment Media Player extension for playing DVB streams.",
+  "description": "Open Smart Environment DVB package",
   "contributors": [
     {
       "name": "Jan Snasel",
@@ -15,6 +15,10 @@
     }
   ],
   "main": "./lib/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opensmartenvironment/ose-dvb.git"
+  },
   "keywords": [
     "open smart environment",
     "dvb"
