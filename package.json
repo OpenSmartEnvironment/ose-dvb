@@ -1,7 +1,7 @@
 {
   "name": "ose-dvb",
   "preferGlobal": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Jan Snasel <snaselj@gmail.com>",
   "description": "Open Smart Environment DVB package",
   "contributors": [
