@@ -20,9 +20,8 @@ This is not yet a piece of download-and-use software. Its important
 to understand the basic principles covered by this documentation.
 
 Use of this software is currently recommended only for users that
-wish participate in the development process (see Contributions).
-
-TODO: Make "Contributions" a link
+wish participate in the development process, see
+[Contributions](#contributions).
 
 ## Getting started
 To get started with OSE, refer to the [ose-bundle](http://opensmartenvironment.github.io/doc/modules/bundle.html) package and
@@ -51,7 +50,7 @@ Provides files of OSE DVB package to the browser.
 
 Module [OSE DVB content](http://opensmartenvironment.github.io/doc/classes/dvb.content.html) reference ... 
 
-## Contributions
+## <a name="contributions"></a>Contributions
 To get started contributing or coding, it is good to read about the
 two main npm packages [ose](http://opensmartenvironment.github.io/doc/modules/ose.html) and [ose-bb](http://opensmartenvironment.github.io/doc/modules/bb.html).
 
@@ -62,5 +61,6 @@ us via
 [github.com/opensmartenvironment](https://github.com/opensmartenvironment).
 
 ## Licence
-This software is licensed under the terms of the [GNU GPL version
-3](../LICENCE) or later
+This software is released under the terms of the [GNU General
+Public License v3.0](http://www.gnu.org/copyleft/gpl.html) or
+later.
