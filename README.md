@@ -17,7 +17,8 @@ TODO
 - No test suite
 
 This is not yet a piece of download-and-use software. Its important
-to understand the basic principles covered by this documentation.
+to understand the basic principles covered by the
+[documentation](http://opensmartenvironment.github.io/doc/).
 
 Use of this software is currently recommended only for users that
 wish participate in the development process, see
