@@ -1,14 +1,12 @@
-# Open Smart Environment DVB package
+# Open Smart Environment - DVB
+This package is a part of OSE suite.
+The main advantage of OSE is the easy creation of applications
+consisting of multiple instances working as a single whole. The
+objective is to develop an all-encompassing personal mesh running
+various devices including HTPCs, phones, tablets, workstations,
+servers, Raspberry Pis, home automation gadgets, wearables, drones etc.
 
-This package contains the general definition of DVB-related logic.
-Currently it contains only the channel [entry kind](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html) and registers
-DVB as a source to the [OSE Media player](http://opensmartenvironment.github.io/doc/modules/media.html).
-
-DVB channels are configured in .js files.
-
-Example:
-
-TODO
+For more information about OSE see **the [documentation](http://opensmartenvironment.github.io/doc/)**.
 
 ## Status
 - Pre-alpha stage (insecure and buggy)
@@ -22,44 +20,29 @@ to understand the basic principles covered by the
 
 Use of this software is currently recommended only for users that
 wish participate in the development process, see
-[Contributions](#contributions).
+[contributions](http://opensmartenvironment.github.io/doc/#contrib).
 
-## Getting started
-To get started with OSE, refer to the [ose-bundle](http://opensmartenvironment.github.io/doc/modules/bundle.html) package and
-[Media player example application](http://opensmartenvironment.github.io/doc/modules/bundle.media.html). You can read the entire OSE
-documentation [here]( http://opensmartenvironment.github.io/doc).
+## Platforms
+OSE is developed in JavaScript on the following platforms.
+- Node.js (>0.10) running on Debian Jessie and Raspbian
+- recent versions of Firefox
+- recent versions of Chromium/Chrome
 
-## Modules
-Open Smart Environment DVB package consists of the following modules:
-- DVB channel kind
-- OSE DVB core
-- OSE DVB content
+It, however, probably also runs on other recent browsers and Linux
+distributions.
 
-### DVB channel kind
-[Entry kind](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html) describing DVB channels.
+## Package description
+This package contains the general definition of DVB-related logic.
+Currently it contains only the channel [entry kind] and registers
+DVB as a source to the [Media player].
 
-Module [DVB channel kind](http://opensmartenvironment.github.io/doc/classes/dvb.lib.channel.html) reference ... 
+DVB channels are configured in .js files.
 
-### OSE DVB core
-Core singleton of ose-dvb npm package. Registers [entry kinds](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html)
-defined by this package to the `"media"` [scope](http://opensmartenvironment.github.io/doc/classes/ose.lib.scope.html).
+Example:
 
-Module [OSE DVB core](http://opensmartenvironment.github.io/doc/classes/dvb.lib.html) reference ... 
+TODO
 
-### OSE DVB content
-Provides files of OSE DVB package to the browser.
-
-Module [OSE DVB content](http://opensmartenvironment.github.io/doc/classes/dvb.content.html) reference ... 
-
-## <a name="contributions"></a>Contributions
-To get started contributing or coding, it is good to read about the
-two main npm packages [ose](http://opensmartenvironment.github.io/doc/modules/ose.html) and [ose-bb](http://opensmartenvironment.github.io/doc/modules/bb.html).
-
-This software is in the pre-alpha stage. At the moment, it is
-premature to file bugs. Input is, however, much welcome in the form
-of ideas, comments and general suggestions.  Feel free to contact
-us via
-[github.com/opensmartenvironment](https://github.com/opensmartenvironment).
+The documentation for "ose-dvb" package can be found **[here](http://opensmartenvironment.github.io/doc/#ose-dvb#)**.
 
 ## Licence
 This software is released under the terms of the [GNU General

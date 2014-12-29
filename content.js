@@ -10,10 +10,10 @@ exports = require('ose')
  */
 
 /**
- * @caption OSE DVB content
+ * @caption DVB content
  *
  * @readme
- * Provides files of OSE DVB package to the browser.
+ * Provides files of [ose-dvb] package to the browser.
  *
  * @class dvb.content
  * @type singleton
