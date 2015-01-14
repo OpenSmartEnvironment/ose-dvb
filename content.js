@@ -23,6 +23,8 @@ exports = require('ose')
 // Public {{{1
 exports.addFiles = function() {
   this.addModule('lib/channel/browser');
+  this.addModule('lib/channel/client');
   this.addModule('lib/channel/index');
+  this.addModule('lib/mplex/index');
   this.addModule('lib/index');
 };
