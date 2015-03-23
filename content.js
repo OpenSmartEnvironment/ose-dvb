@@ -23,8 +23,9 @@ function Init() {
   O.super.call(this);
 
   this.addModule('lib/channel/browser');
-  this.addModule('lib/channel/pledge');
+  this.addModule('lib/channel/gaia/list');
   this.addModule('lib/channel/index');
+  this.addModule('lib/channel/pledge');
   this.addModule('lib/mplex/index');
   this.addModule('lib/index');
 };
