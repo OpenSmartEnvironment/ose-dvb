@@ -25,7 +25,7 @@ function Init() {
   this.addModule('lib/channel/browser');
   this.addModule('lib/channel/gaia/list');
   this.addModule('lib/channel/index');
-  this.addModule('lib/channel/pledge');
+  this.addModule('lib/channel/boon');
   this.addModule('lib/index');
   this.addModule('lib/mplex/index');
 };
