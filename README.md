@@ -9,6 +9,8 @@ on various devices including HTPCs, phones, tablets, workstations,
 servers, Raspberry Pis, home automation gadgets, wearables, drones
 etc.
 
+<a href="http://opensmartenvironment.github.io/doc/resource/ose.svg"><img width=100% src="http://opensmartenvironment.github.io/doc/resource/ose.svg"></a>
+
 For more information about OSE see **the [documentation](http://opensmartenvironment.github.io/doc/)**.
 
 ## Status
@@ -28,22 +30,17 @@ wish to participate in the development process, see
 ## Platforms
 OSE is being developed in JavaScript on the following platforms.
 - Node.js (>0.10) running on Debian Jessie and Raspbian
-- recent versions of Firefox
-- recent versions of Chromium/Chrome
+- Firefox 37 or newer with Web Components enabled
 
-It, however, probably also works with other recent browsers and Linux
-distributions.
+It, however, probably also works with other Linux distributions.
 
 ## Package description
 This package contains the general definition of DVB-related logic.
-Currently it contains only the channel [entry kind] and registers
-DVB as a source to the [Media player].
+It is able to parse `channels.conf` files (output of
+[`w_scan`](http://www.linuxtv.org/wiki/index.php/W_scan)) and
+register them as sources used by the [Media player].
 
-DVB channels are configured in .js files.
-
-Example:
-
-TODO
+See [DVB streamer example]
 
 The documentation for "ose-dvb" package can be found **[here](http://opensmartenvironment.github.io/doc/#ose-dvb#)**.
 
