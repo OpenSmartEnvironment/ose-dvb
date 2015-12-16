@@ -22,7 +22,6 @@ exports = O.init();
 function Init() {
   O.super.call(this);
 
-  this.addModule('lib/channel/browser');
   this.addModule('lib/channel/gaia/list');
   this.addModule('lib/channel/index');
   this.addModule('lib/channel/boon');
