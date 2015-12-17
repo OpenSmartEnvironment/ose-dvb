@@ -1,6 +1,6 @@
 'use strict';
 
-var O = require('ose').object(module, Init, 'ose/lib/http/content');
+var O = require('ose').object(module, 'ose/lib/http/content');
 exports = O.init();
 
 /** Docs  {{{1
@@ -19,12 +19,10 @@ exports = O.init();
  */
 
 // Public {{{1
-function Init() {
-  O.super.call(this);
 
-  this.addModule('lib/channel/gaia/list');
-  this.addModule('lib/channel/index');
-  this.addModule('lib/channel/boon');
-  this.addModule('lib/index');
-  this.addModule('lib/mplex/index');
-};
+exports.addModule('lib/channel/html5/list');
+exports.addModule('lib/channel/index');
+exports.addModule('lib/channel/boon');
+exports.addModule('lib/index');
+exports.addModule('lib/mplex/index');
+
