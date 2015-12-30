@@ -20,7 +20,6 @@ exports = O.init();
 
 // Public {{{1
 
-exports.addModule('lib/channel/html5/list');
 exports.addModule('lib/channel/index');
 exports.addModule('lib/channel/boon');
 exports.addModule('lib/index');
