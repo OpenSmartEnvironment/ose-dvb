@@ -22,8 +22,5 @@
     "open smart environment",
     "dvb"
   ],
-  "_dependencies": {
-    "jsdom": "*"
-  },
   "license": "GPL-3.0+"
 }
