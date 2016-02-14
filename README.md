@@ -38,16 +38,20 @@ For more information about OSE see **[the documentation](http://opensmartenviron
 - Pre-alpha stage (insecure and buggy)
 - Unstable API
 - Patchy documentation
-- No test suite
+- Low test coverage (1 %)
 
 This is not yet a piece of download-and-use software. It is important
 to understand the basic principles covered by the
 [documentation](http://opensmartenvironment.github.io/doc/).
 
+However, this software is successfully and continuously used since end
+of 2013 in one installation running 7 OSE instances spread over several
+Raspberries, HTPC and notebook.
+
 ## Platforms
 OSE has the following prerequisites:
-- Node.js (>0.10) running on Debian Jessie and Raspbian
-- Firefox 37 or newer with Web Components enabled
+- Node.js (>0.12) running on Debian Jessie and Raspbian
+- Recent version of Firefox or Chrome browser
 
 ## Licence
 This software is released under the terms of the [GNU General
