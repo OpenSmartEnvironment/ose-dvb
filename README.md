@@ -11,6 +11,7 @@ This package is a part of the OSE suite. For more information, see the following
 - [DVB documentation](http://opensmartenvironment.github.io/doc/#dvb)
 - [OSE suite documentation](http://opensmartenvironment.github.io/doc/)
 - [All packages](https://github.com/opensmartenvironment/)
+- [All issues](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3AOpenSmartEnvironment+)
 
 ## About OSE
 <b>Open Smart Environment software is a suite for creating
@@ -44,9 +45,9 @@ This is not yet a piece of download-and-use software. It is important
 to understand the basic principles covered by the
 [documentation](http://opensmartenvironment.github.io/doc/).
 
-However, this software is successfully and continuously used since end
-of 2013 in one installation running 7 OSE instances spread over several
-Raspberries, HTPC and notebook.
+However, this software has been successfully used continuously since the end
+of 2013 in a house running 7 OSE instances spread over several
+Raspberry Pis, notebooks and an HTPC.
 
 ## Platforms
 OSE has the following prerequisites:
